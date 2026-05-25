@@ -4,8 +4,6 @@ This repository is for the paper:
 
 **Single-Camera 3D Perception and Ego-Motion Estimation in Capsule Endoscopy via Vision-Vibration Fusion with Fourier-Domain Denoising**
 
-It implements the central method described in the manuscript: a self-supervised monocular capsule-endoscopy framework that combines RGB frame triplets with synchronized six-channel vibration snippets. The vibration branch estimates a reliability factor \(\rho_\tau\), which controls Wiener-style spectral purification of visual encoder features before inverse-range and 6-DoF ego-motion prediction.
-
 ## What is implemented
 
 - Manifest-based loaders for VR-Caps, EndoSLAM, C3VDv2-style data.
