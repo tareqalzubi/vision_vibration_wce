@@ -27,10 +27,6 @@ This repository is for the paper:
   - vibration-severity grouping.
 - Smoke-test synthetic dataset generator.
 
-## Brutal implementation reality
-
-The paper describes the method, but it does not provide official raw dataset folders, sensor-export formats, calibration files, or exact hyperparameter values. This repo therefore avoids fake hard-coded paths and instead uses a **manifest format**. You must convert VR-Caps, EndoSLAM, and C3VDv2 into the CSV structure described below. The code is complete enough to train and evaluate, but exact paper reproduction still requires the authors' actual splits, vibration generation pipeline, calibration protocol, and released checkpoints.
-
 ## Repository layout
 
 ```text
