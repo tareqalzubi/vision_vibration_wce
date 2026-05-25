@@ -1,7 +1,5 @@
 # Data directory
 
-Do not commit raw medical/simulation datasets into the repository.
-
 Convert each dataset into a manifest CSV with columns:
 
 ```text
