@@ -1,6 +1,6 @@
 # Vision-Vibration WCE: Self-Supervised Range and Ego-Motion Estimation
 
-This repository is a research-code template for the paper:
+This repository is for the paper:
 
 **Single-Camera 3D Perception and Ego-Motion Estimation in Capsule Endoscopy via Vision-Vibration Fusion with Fourier-Domain Denoising**
 
