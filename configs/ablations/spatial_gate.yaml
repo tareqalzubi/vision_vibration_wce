@@ -1,0 +1,3 @@
+model:
+  fusion_type: spatial_gate
+  rho_mode: direct

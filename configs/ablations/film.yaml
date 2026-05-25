@@ -1,0 +1,3 @@
+model:
+  fusion_type: film
+  rho_mode: direct

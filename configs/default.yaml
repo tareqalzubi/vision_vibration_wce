@@ -1,0 +1,44 @@
+seed: 42
+output_dir: outputs/default
+
+data:
+  root: data/raw
+  manifest: data/manifest.csv
+  train_split: train
+  val_split: val
+  test_split: test
+  image_size: [320, 320]
+  vibration_length: 240
+  vibration_channels: 6
+  num_workers: 4
+
+model:
+  image_channels: 3
+  encoder_channels: [32, 64, 128, 256]
+  descriptor_dim: 128
+  fusion_type: frequency       # none | frequency | concat | film | spatial_gate
+  rho_mode: adaptive           # adaptive | fixed | global | direct
+  fixed_rho: 1.0
+  vibration_encoder: two_stream_mlstm_se  # two_stream_mlstm_se | single_mlstm | mlstm_no_se | bigru | tcn
+  pose_scale: 0.01
+  min_depth: 0.05
+  max_depth: 20.0
+
+training:
+  epochs: 50
+  batch_size: 4
+  lr: 0.0001
+  weight_decay: 0.00001
+  grad_clip: 1.0
+  amp: false
+  log_interval: 25
+  patience: 10
+  loss_weights:
+    intensity: 1.0
+    smoothness: 0.001
+    geometry: 0.1
+  photometric_kappa: 0.85
+
+evaluation:
+  median_scale: true
+  vibration_tertiles: true

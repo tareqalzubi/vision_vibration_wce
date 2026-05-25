@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+.env
+.DS_Store
+outputs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+data/smoke/
+data/raw/

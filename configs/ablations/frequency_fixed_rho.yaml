@@ -1,0 +1,4 @@
+model:
+  fusion_type: frequency
+  rho_mode: fixed
+  fixed_rho: 1.0

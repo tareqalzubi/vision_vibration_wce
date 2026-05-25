@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vv-wce"
+version = "0.1.0"
+description = "Vision-vibration fusion for self-supervised capsule-endoscopy range and ego-motion estimation"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Research Code Template"}]
+dependencies = [
+  "torch>=2.0",
+  "torchvision>=0.15",
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "Pillow>=9.0",
+  "PyYAML>=6.0",
+  "tqdm>=4.64",
+  "scipy>=1.9",
+  "matplotlib>=3.7"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

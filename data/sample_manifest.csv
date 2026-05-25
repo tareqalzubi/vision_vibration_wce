@@ -1,0 +1,2 @@
+sequence_id,index,frame_prev,frame_ref,frame_next,vibration,depth_ref,depth_next,pose_ref,pose_next,fx,fy,cx,cy,split
+seq001,1,seq001/rgb/000000.png,seq001/rgb/000001.png,seq001/rgb/000002.png,seq001/vibration/000001.npy,seq001/depth/000001.npy,seq001/depth/000002.npy,seq001/pose/000001.txt,seq001/pose/000002.txt,250,250,160,160,train
