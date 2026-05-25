@@ -169,4 +169,3 @@ python infer.py \
 ## License
 
 MIT. Dataset licenses remain with their respective dataset owners.
-# vision_vibration_wce
