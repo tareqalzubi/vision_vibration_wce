@@ -1,7 +1,5 @@
 # Required GitHub repository files
 
-The manuscript is not reproducible from one monolithic script. A defensible GitHub repository must include the following file groups.
-
 ## Core model files
 
 - `src/vv_wce/models/vision_encoder.py`: hierarchical visual encoder.
